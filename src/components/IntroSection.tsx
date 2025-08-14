@@ -140,32 +140,11 @@ const IntroSection = () => {
     return <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Interactive Icon Cloud - Hidden on mobile for performance */}
       <div ref={iconCloudRef} className=" hidden lg:block absolute right-0 top-0 w-1/2 h-full z-0 flex items-center justify-center">
-        <div className="w-full max-w-lg h-96">
+        <div className="w-full max-w-lg h-96 mt-10">
           <IconCloud iconSlugs={techStackSlugs} />
       </div>
       </div>
-
-
-
-
-      {/* Background Gradient */}
-      {/* 3D Spline Animation - Hidden on mobile for performance
-      <div ref={splineRef} className="hidden lg:block absolute right-0 top-0 w-1/2 h-full z-0" 
-  >
-
-        <iframe 
-          src="https://my.spline.design/cubic-i2HP7UkYHRDetL5pIRdL6ibV/"
-          frameBorder="0" 
-          width="600px" 
-          height="600px"
-          className="w-full h-full"
-          style={{ marginTop: '-55px', zIndex: 0 }}  
-        
-        />
-
-      </div> */}
-
-      
+ 
 
       {/* Content Layout */}
       <div ref={heroRef} className="relative z-10 container mx-auto px-4 sm:px-6">
@@ -231,10 +210,10 @@ const IntroSection = () => {
             </div>
           </div>
 
-          {/* Right Side - Animation Space */}
+          {/* Right Side -  Floating animation elements  */}
           <div className="hidden lg:flex items-center justify-center lg:justify-end">
-            <div className="w-full max-w-md h-96 relative">
-              {/* Floating animation elements */}
+            <div className="w-full max-w-md h-96 relative ml-80 mt-[28rem]">
+              {/* Floating circles */}
               <div className="absolute inset-0 flex items-center justify-center">
                 <div className="w-32 h-32 rounded-full bg-gradient-to-r from-accent/20 to-primary/20 animate-float" />
               </div>

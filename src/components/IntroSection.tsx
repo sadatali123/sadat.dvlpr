@@ -96,8 +96,7 @@ const IntroSection = () => {
     };
   }, []);
   const downloadResume = () => {
-    // This will be updated later when you add your resume link
-    const resumeUrl = '/resume.pdf'; // Replace with your actual resume URL
+    const resumeUrl = "./public/my_cv.pdf"; // resume URL
     const link = document.createElement('a');
     link.href = resumeUrl;
     link.download = 'Sadat_Ali_Resume.pdf';
@@ -139,7 +138,7 @@ const IntroSection = () => {
   ];
     return <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Interactive Icon Cloud - Hidden on mobile for performance */}
-      <div ref={iconCloudRef} className=" hidden lg:block absolute right-0 top-0 w-1/2 h-full z-0 flex items-center justify-center">
+      <div ref={iconCloudRef} className="lg:block absolute right-0 top-0 w-1/2 h-full z-0 flex items-center justify-center">
         <div className="w-full max-w-lg h-96 mt-10">
           <IconCloud iconSlugs={techStackSlugs} />
       </div>
@@ -162,7 +161,8 @@ const IntroSection = () => {
             {/* Subtitle */}
             <p ref={subtitleRef} className="text-lg sm:text-xl lg:text-2xl text-muted-foreground leading-relaxed max-w-xl mx-auto lg:mx-0">Crafting immersive digital experiences with cutting-edge technologies. MERN Stack • Spring Boot •</p>
 
-            {/* CTA Buttons */}
+            {/* Hire-me, view projects, resume Buttons */}
+            {/* CTA buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <Link 
                 to="/contact"
@@ -213,6 +213,7 @@ const IntroSection = () => {
           {/* Right Side -  Floating animation elements  */}
           <div className="hidden lg:flex items-center justify-center lg:justify-end">
             <div className="w-full max-w-md h-96 relative ml-80 mt-[28rem]">
+              
               {/* Floating circles */}
               <div className="absolute inset-0 flex items-center justify-center">
                 <div className="w-32 h-32 rounded-full bg-gradient-to-r from-accent/20 to-primary/20 animate-float" />

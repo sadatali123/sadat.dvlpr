@@ -97,11 +97,11 @@ const Navigation = () => {
                 to="/"
                 className="hover:scale-105 block"
               >
-                <LogoProcessor
+                {/* <LogoProcessor
                   originalSrc="\images\my_logo.png"
                   alt="Sadat Logo"
-                  className="w-12 h-9 sm:w-16 sm:h-12"
-                />
+                  className="w-27 h-24 sm:w-16 sm:h-12"
+                /> */}
               </Link>
             </div>
 

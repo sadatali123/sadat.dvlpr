@@ -82,7 +82,7 @@ const WorkExperience = () => {
       period: "Jul 2024 – Sep 2024",
       description: "As a part of my internship at NIELIT Agartala, I developed a real-time chat application using Flutter and Firebase with features like user authentication and real-time messaging.",
       logo: "/images/nielit-logo.jpg",
-      gradient: "from-orange-500/20 to-red-500/20"
+      gradient: "from-violet-500/20 to-black-500/20"
     },
     {
       company: "MICA 2025 – ICFAI University, Tripura",
@@ -127,7 +127,7 @@ const WorkExperience = () => {
               
               <CardHeader className="relative z-10">
                 <div className="flex flex-col sm:flex-row items-start gap-3 sm:gap-4 mb-2">
-                  <div className="w-14 h-14 sm:w-16 sm:h-16 bg-white rounded-xl p-2 shadow-lg flex items-center justify-center flex-shrink-0">
+                  <div className="w-14 h-14 sm:w-16 sm:h-16 bg-zinc-800 rounded-xl p-2 shadow-lg flex items-center justify-center flex-shrink-0">
                     <img 
                       src={experience.logo} 
                       alt={`${experience.company} logo`}

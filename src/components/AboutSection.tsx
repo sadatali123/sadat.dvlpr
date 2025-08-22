@@ -141,27 +141,21 @@ const AboutSection = () => {
               
               <div className="space-y-6 text-lg text-muted-foreground leading-relaxed">
                 <p>
-                  I am a <span className="text-accent font-semibold">B.Tech Computer Science student</span> at 
-                  ICFAI University Tripura with a 
-                  passionate full-stack developer.
+                  I'm a <span className="text-accent font-semibold">Computer Science student</span> with a 
+                  experienced <span className="text-accent font-semibold">full-stack developer</span>.  
+                  I live in India, where I design and develop applications that solve real-world problems.
                 </p>
-                
-                <p>
-                  I have built real-world applications using the <span className="text-accent">MERN stack</span> and 
-                  <span className="text-primary"> Spring Boot</span>, including a Grievance & Emergency Reporting System 
-                  and the official MICA 2025 conference site.
-                </p>
-                
+
                 <p>
                   I focus on writing <span className="text-neon-cyan">clean, scalable code</span> and building 
-                  high-performance, visually-rich web applications with cutting-edge animations and 3D interactions.
+                  high-performance, visually-rich applications with cutting-edge animations and 3D interactions.
                 </p>
               </div>
 
               {/* Resume Download Button */}
               <div className="mt-8">
                 <a
-                  href="/resume.pdf"
+                  href="./public/my_cv.pdf"
                   download="Sadat_Ali_Resume.pdf"
                   className="inline-flex items-center gap-3 px-6 py-3 bg-gradient-to-r from-accent to-primary text-accent-foreground font-semibold rounded-full hover:scale-105 transition-all duration-300 accent-glow"
                 >
@@ -199,7 +193,7 @@ const AboutSection = () => {
         </div>
 
         {/* Skills Grid */}
-        <div className="mt-20">
+        <div className="mt-44">
           <h3 className="text-3xl font-bold text-center mb-4">
             Tech <span className="text-gradient-secondary">Stack</span>
           </h3>

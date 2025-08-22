@@ -22,7 +22,7 @@ const ServicesSection = () => {
   const services = [
     {
       icon: Globe,
-      title: "🚀 Web Development",
+      title: "Web Development",
       subtitle: "Frontend / Backend / Full Stack",
       description: "From fast-loading static pages to full-scale SaaS platforms, I build responsive and optimized websites that perform.",
       pricing: [
@@ -34,7 +34,7 @@ const ServicesSection = () => {
     },
     {
       icon: Smartphone,
-      title: "📱 Android App Development",
+      title: "Android App Development",
       subtitle: "Modern & Elegant Apps",
       description: "Launch modern and elegant Android apps with Flutter or Java — featuring real-time features and backend integration.",
       pricing: [
@@ -44,7 +44,7 @@ const ServicesSection = () => {
     },
     {
       icon: Code,
-      title: "🛠️ API Development & Backend Services",
+      title: "API Development & Backend Services",
       subtitle: "Secure & Scalable APIs",
       description: "Secure and scalable REST or GraphQL APIs that power your frontend or mobile apps with clean architecture.",
       pricing: [
@@ -54,7 +54,7 @@ const ServicesSection = () => {
     },
     {
       icon: Cloud,
-      title: "🌐 DevOps & Deployment",
+      title: "DevOps & Deployment",
       subtitle: "Zero Downtime Deployments",
       description: "Smooth deployments with zero downtime. I handle infrastructure setup, CI/CD, and production-level reliability.",
       pricing: [
@@ -64,7 +64,7 @@ const ServicesSection = () => {
     },
     {
       icon: Palette,
-      title: "🎨 UI/UX Design Consulting",
+      title: "UI/UX Design Consulting",
       subtitle: "User-First Design",
       description: "Clean, user-first design that blends usability with modern visuals. Perfect for web and mobile applications.",
       pricing: [
@@ -74,7 +74,7 @@ const ServicesSection = () => {
     },
     {
       icon: MessageCircle,
-      title: "💬 Technical Mentorship / Consulting",
+      title: "Technical Mentorship / Consulting",
       subtitle: "Real-Time Guidance",
       description: "Need clarity on a stack? Stuck in your code? I offer real-time guidance, best practices, and deep dives into projects.",
       pricing: [

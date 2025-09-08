@@ -153,13 +153,13 @@ const ServicesSection = () => {
             <span className="text-gradient-primary">Services</span>
           </h2>
           <p className="text-base sm:text-lg lg:text-xl text-muted-foreground max-w-4xl mx-auto leading-relaxed px-4">
-            At <span className="text-accent font-semibold">sadatali.dev</span>, I deliver clean, efficient, and scalable software solutions tailored to your needs. 
+            At <span className="text-accent font-semibold">sadat.dev</span>, I deliver clean, efficient, and scalable software solutions tailored to your needs. 
             Whether you're a business, startup, or solo founder — I turn your ideas into high-performance digital products with modern tools and best practices.
           </p>
         </div>
 
         {/* Services Grid */}
-        <div ref={servicesRef} className="space-y-8">
+        <div ref={servicesRef} className="space-y-14">
           {services.map((service, index) => (
             <div
               key={index}

@@ -136,13 +136,14 @@ const AboutSection = () => {
           <div ref={contentRef} className="space-y-6 lg:space-y-8 text-center lg:text-left">
             <div>
               <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 sm:mb-6">
-                About <span className="text-gradient-primary">Me</span>
+                About <span className="text-gradient">Me</span>
               </h2>
               
-              <div className="space-y-6 text-lg text-muted-foreground leading-relaxed">
+              <div className="space-y-6 text-lg text-muted-foreground leading-relaxed text-justify">
                 <p>
                   I'm a <span className="text-accent font-semibold">Computer Science student</span> with a 
-                  experienced <span className="text-accent font-semibold">full-stack developer</span>.  
+                  experienced <span className="text-accent font-semibold">full-stack developer</span>.
+                
                   I live in India, where I design and develop applications that solve real-world problems.
                 </p>
 

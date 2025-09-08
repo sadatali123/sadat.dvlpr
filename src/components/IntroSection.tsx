@@ -57,11 +57,11 @@ const IntroSection = () => {
     // 3D cloud animation
     tl.fromTo(iconCloudRef.current, {
       x: 100,
-      opacity: 0,
+      opacity: 100,
       filter: 'blur(10px)'
     }, {
       x: 0,
-      opacity: 1,
+      opacity: 100,
       filter: 'blur(0px)',
       duration: 1.5,
       ease: "power2.out"
@@ -137,11 +137,11 @@ const IntroSection = () => {
     "figma"
   ];
     return <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Interactive Icon Cloud - Hidden on mobile for performance */}
+      {/* Icon Cloud - Hidden on mobile for performance */}
       <div ref={iconCloudRef} className="lg:block absolute right-0 top-0 w-1/2 h-full z-0 flex items-center justify-center">
-        <div className="w-full max-w-lg h-96 mt-10">
+        <div className="w-full max-w-lg h-96 mt-20">
           <IconCloud iconSlugs={techStackSlugs} />
-      </div>
+        </div>
       </div>
  
 
@@ -159,7 +159,7 @@ const IntroSection = () => {
             </h1>
 
             {/* Subtitle */}
-            <p ref={subtitleRef} className="text-lg sm:text-xl lg:text-2xl text-muted-foreground leading-relaxed max-w-xl mx-auto lg:mx-0">Crafting immersive digital experiences with cutting-edge technologies. MERN Stack • Spring Boot •</p>
+            <p ref={subtitleRef} className="text-lg sm:text-xl lg:text-2xl text-muted-foreground leading-relaxed max-w-xl mx-auto lg:mx-0">I build high-performance applications that empower businesses and inspire users.</p>
 
             {/* Hire-me, view projects, resume Buttons */}
             {/* CTA buttons */}
@@ -175,14 +175,14 @@ const IntroSection = () => {
               
               <Link 
                 to="/projects"
-                className="px-6 sm:px-8 py-3 sm:py-4 border-2 border-primary text-primary font-semibold rounded-full text-base sm:text-lg hover:bg-primary hover:text-primary-foreground transition-all duration-300"
+                className="px-6 sm:px-6 py-3 sm:py-3 border-2 border-primary text-primary font-semibold rounded-full text-base sm:text-lg hover:bg-primary hover:text-primary-foreground transition-all duration-300"
               >
                 View Projects
               </Link>
 
               <button 
                 onClick={downloadResume}
-                className="flex items-center justify-center gap-2 px-6 sm:px-8 py-3 sm:py-4 border-2 border-accent text-accent font-semibold rounded-full text-base sm:text-lg hover:bg-accent hover:text-accent-foreground transition-all duration-300"
+                className="flex items-center justify-center w- gap-2 px-6 sm:px-6 py-3 sm:py-3 border-2 border-accent text-accent font-semibold rounded-full text-base sm:text-lg hover:bg-accent hover:text-accent-foreground transition-all duration-300"
               >
                 <Download size={18} />
                 <span className="hidden sm:inline">View Resume</span>
@@ -192,19 +192,19 @@ const IntroSection = () => {
 
             {/* Social Links */}
             <div className="flex gap-3 sm:gap-4 justify-center lg:justify-start">
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="p-2 sm:p-3 rounded-full border border-border hover:border-primary hover:bg-primary/10 transition-all duration-300 group">
+              <a href="https://github.com/sadatali123" target="_blank" rel="noopener noreferrer" className="p-2 sm:p-3 rounded-full border border-border hover:border-primary hover:bg-primary/10 transition-all duration-300 group">
                 <Github className="w-5 h-5 sm:w-6 sm:h-6 text-muted-foreground group-hover:text-primary transition-colors" />
               </a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="p-2 sm:p-3 rounded-full border border-border hover:border-primary hover:bg-primary/10 transition-all duration-300 group">
+              <a href="https://linkedin.com/in/sadat-ali-50353130b" target="_blank" rel="noopener noreferrer" className="p-2 sm:p-3 rounded-full border border-border hover:border-primary hover:bg-primary/10 transition-all duration-300 group">
                 <Linkedin className="w-5 h-5 sm:w-6 sm:h-6 text-muted-foreground group-hover:text-primary transition-colors" />
               </a>
-              <a href="mailto:contact@example.com" className="p-2 sm:p-3 rounded-full border border-border hover:border-primary hover:bg-primary/10 transition-all duration-300 group">
+              <a href="sa9621952@gmail.com" className="p-2 sm:p-3 rounded-full border border-border hover:border-primary hover:bg-primary/10 transition-all duration-300 group">
                 <Mail className="w-5 h-5 sm:w-6 sm:h-6 text-muted-foreground group-hover:text-primary transition-colors" />
               </a>
-              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="p-2 sm:p-3 rounded-full border border-border hover:border-primary hover:bg-primary/10 transition-all duration-300 group">
+              {/* <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="p-2 sm:p-3 rounded-full border border-border hover:border-primary hover:bg-primary/10 transition-all duration-300 group">
                 <Twitter className="w-5 h-5 sm:w-6 sm:h-6 text-muted-foreground group-hover:text-primary transition-colors" />
-              </a>
-              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="p-2 sm:p-3 rounded-full border border-border hover:border-primary hover:bg-primary/10 transition-all duration-300 group">
+              </a> */}
+              <a href="https://www.instagram.com/ali__2729_/" target="_blank" rel="noopener noreferrer" className="p-2 sm:p-3 rounded-full border border-border hover:border-primary hover:bg-primary/10 transition-all duration-300 group">
                 <Instagram className="w-5 h-5 sm:w-6 sm:h-6 text-muted-foreground group-hover:text-primary transition-colors" />
               </a>
             </div>
@@ -212,15 +212,15 @@ const IntroSection = () => {
 
           {/* Right Side -  Floating animation elements  */}
           <div className="hidden lg:flex items-center justify-center lg:justify-end">
-            <div className="w-full max-w-md h-96 relative ml-80 mt-[28rem]">
+            <div className="w-full max-w-md h-96 relative ml-80 mt-[28rem] ">
               
               {/* Floating circles */}
               <div className="absolute inset-0 flex items-center justify-center">
                 <div className="w-32 h-32 rounded-full bg-gradient-to-r from-accent/20 to-primary/20 animate-float" />
               </div>
-              <div className="absolute top-1/4 right-1/4 w-16 h-16 rounded-full bg-neon-cyan/30 animate-float" style={{
+              {/* <div className="absolute top-1/4 right-1/4 w-16 h-16 rounded-full bg-neon-cyan/30 animate-float" style={{
               animationDelay: '1s'
-            }} />
+            }} /> */}
               <div className="absolute bottom-1/4 left-1/4 w-24 h-24 rounded-full bg-primary/20 animate-float" style={{
               animationDelay: '2s'
             }} />

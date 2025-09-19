@@ -104,37 +104,46 @@ const IntroSection = () => {
   };
 
   const techStackSlugs = [
-    "typescript",
-    "javascript",
-    "dart",
-    "java",
-    "react",
-    "flutter",
-    "android",
-    "html5",
-    "css3",
-    "nodedotjs",
-    "express",
-    "nextdotjs",
-    "prisma",
-    "amazonaws",
-    "postgresql",
-    "firebase",
-    "nginx",
-    "vercel",
-    "testinglibrary",
-    "jest",
-    "cypress",
-    "docker",
-    "git",
-    "jira",
-    "github",
-    "gitlab",
-    "visualstudiocode",
-    "postman",
-    "androidstudio",
-    "sonarqube",
-    "figma"
+  "typescript",
+  "javascript",
+  "dart",
+  "java",
+  "react",
+  "flutter",
+  "android",
+  "html5",
+  "css3",
+  "tailwind",
+  "nodedotjs",
+  "express",
+  "nextdotjs",
+  "prisma",
+  "amazonaws",
+  "postgresql",
+  "firebase",
+  "nginx",
+  "vercel",
+  "testinglibrary",
+  "jest",
+  "cypress",
+  "docker",
+  "git",
+  "jira",
+  "github",
+  "gitlab",
+  "visualstudiocode",
+  "postman",
+  "androidstudio",
+  "sonarqube",
+  "figma",
+
+  "mongodb",
+  "supabase",
+  "web3",
+  "solidity",
+  "kubernetes",
+  "springboot",
+  "shadcnui"
   ];
     return <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Icon Cloud - Hidden on mobile for performance */}
@@ -149,7 +158,7 @@ const IntroSection = () => {
       <div ref={heroRef} className="relative z-10 container mx-auto px-4 sm:px-6">
         <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center min-h-screen pt-20 lg:pt-0">
           {/* Left Side - Text Content */}
-          <div className="space-y-6 lg:space-y-8 text-center lg:text-left">
+          <div className="space-y-6 lg:space-y-8 text-center lg:text-left tracking-tighter">
             {/* Main Headline */}
             <h1 ref={headlineRef} className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold leading-tight">
               Hi, I'm{' '}
@@ -167,7 +176,7 @@ const IntroSection = () => {
               <Link 
                 to="/contact"
                 ref={ctaRef} 
-                className="group relative px-6 sm:px-8 py-3 sm:py-4 bg-gradient-to-r from-accent to-primary text-accent-foreground font-semibold rounded-full text-base sm:text-lg shadow-2xl hover:shadow-accent/25 transition-all duration-300 accent-glow"
+                className="group relative px-6 sm:px-8 py-3 sm:py-4 bg-gradient-to-r from-accent to-primary text-accent-foreground font-semibold rounded-full text-base sm:text-lg shadow-2xl hover:shadow-accent/25 transition-all duration-300 accent-glow tracking-tight"
               >
                 <span className="relative z-10">Hire Me</span>
                 <div className="absolute inset-0 bg-gradient-to-r from-accent to-primary rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300 blur-sm" />
@@ -175,14 +184,14 @@ const IntroSection = () => {
               
               <Link 
                 to="/projects"
-                className="px-6 sm:px-6 py-3 sm:py-3 border-2 border-primary text-primary font-semibold rounded-full text-base sm:text-lg hover:bg-primary hover:text-primary-foreground transition-all duration-300"
+                className="px-6 sm:px-6 py-3 sm:py-3 border-2 border-primary text-primary font-semibold rounded-full text-base sm:text-lg hover:bg-primary hover:text-primary-foreground transition-all duration-300 tracking-tight"
               >
                 View Projects
               </Link>
 
               <button 
                 onClick={downloadResume}
-                className="flex items-center justify-center w- gap-2 px-6 sm:px-6 py-3 sm:py-3 border-2 border-accent text-accent font-semibold rounded-full text-base sm:text-lg hover:bg-accent hover:text-accent-foreground transition-all duration-300"
+                className="flex items-center justify-center w- gap-2 px-6 sm:px-6 py-3 sm:py-3 border-2 border-accent text-accent font-semibold rounded-full text-base sm:text-lg hover:bg-accent hover:text-accent-foreground transition-all duration-300 tracking-tight"
               >
                 <Download size={18} />
                 <span className="hidden sm:inline">View Resume</span>

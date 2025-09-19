@@ -24,11 +24,11 @@ const ServicesSection = () => {
       icon: Globe,
       title: "Web Development",
       subtitle: "Frontend / Backend / Full Stack",
-      description: "From fast-loading static pages to full-scale SaaS platforms, I build responsive and optimized websites that perform.",
+      description: "I build responsive, high-performance websites — from simple static pages to full SaaS platforms.",
       pricing: [
-        { type: "Static Website (Portfolio / Landing Page)", price: "₹3,000 – ₹7,000" },
-        { type: "Dynamic Website (Blog / CMS-based Site)", price: "₹8,000 – ₹15,000" },
-        { type: "Full-Stack Web App (with DB, Auth, Admin Panel)", price: "₹20,000 – ₹50,000+" }
+        { type: "Static Website (Portfolio / Landing Page)", price: "₹4,000 – ₹7,000" },
+        { type: "Dynamic Website (Blog / CMS-based Site)", price: "₹7,000 – ₹15,000" },
+        { type: "Full-Stack Web App (with DB, Auth, Admin Panel)", price: "₹15,000 – ₹50,000+" }
       ],
       techStack: "React.js, Next.js, Node.js, Express.js, Tailwind CSS, Prisma, MongoDB, PostgreSQL"
     },
@@ -36,7 +36,7 @@ const ServicesSection = () => {
       icon: Smartphone,
       title: "Android App Development",
       subtitle: "Modern & Elegant Apps",
-      description: "Launch modern and elegant Android apps with Flutter or Java — featuring real-time features and backend integration.",
+      description: "Using Flutter or Java, I develop Android apps with real-time features and seamless backend integration.",
       pricing: [
         { type: "Basic App (Info-based, Offline)", price: "₹7,000 – ₹12,000" },
         { type: "Feature-Rich App (Firebase, Real-time Chat, API Integration)", price: "₹15,000 – ₹35,000+" }
@@ -72,16 +72,16 @@ const ServicesSection = () => {
         { type: "Complete UI Design (Figma)", price: "₹5,000 – ₹10,000+" }
       ]
     },
-    {
-      icon: MessageCircle,
-      title: "Technical Mentorship / Consulting",
-      subtitle: "Real-Time Guidance",
-      description: "Need clarity on a stack? Stuck in your code? I offer real-time guidance, best practices, and deep dives into projects.",
-      pricing: [
-        { type: "1:1 Session (1 Hour)", price: "₹700" },
-        { type: "Project Guidance / Code Review", price: "₹1,000 – ₹2,500/session" }
-      ]
-    }
+    // {
+    //   icon: MessageCircle,
+    //   title: "Technical Mentorship / Consulting",
+    //   subtitle: "Real-Time Guidance",
+    //   description: "Need clarity on a stack? Stuck in your code? I offer real-time guidance, best practices, and deep dives into projects.",
+    //   pricing: [
+    //     { type: "1:1 Session (1 Hour)", price: "₹700" },
+    //     { type: "Project Guidance / Code Review", price: "₹1,000 – ₹2,500/session" }
+    //   ]
+    // }
   ];
 
   useEffect(() => {
@@ -262,7 +262,7 @@ const ServicesSection = () => {
                 Get Started
               </a>
               <a
-                href="/projects"
+                href="/"
                 className="inline-flex items-center justify-center gap-2 sm:gap-3 px-6 sm:px-8 py-3 sm:py-4 glass-button border border-accent/30 text-accent font-semibold rounded-full hover:bg-accent/10 transition-all duration-300 text-sm sm:text-base"
               >
                 <Rocket className="w-4 h-4 sm:w-5 sm:h-5" />

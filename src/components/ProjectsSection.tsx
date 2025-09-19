@@ -11,52 +11,52 @@ const ProjectsSection = () => {
 
   const projects = [
     {
-      title: "Grievance & Emergency System",
+      title: "Information Service",
       description: "A comprehensive MERN stack application for reporting and managing grievances with real-time notifications and admin dashboard.",
-      tech: ["React", "Node.js", "MongoDB", "Express"],
+      tech: ["React", "Node.js", "PostgreSQL", "Express"],
       gradient: "from-blue-500 to-purple-600",
       demo: "https://your-project-demo-url.com",
       github: "https://github.com/sadatali123"
     },
+    // {
+    //   title: "MICA 2025 Conference Site",
+    //   description: "Official conference website with registration system, speaker profiles, and event management built with modern web technologies.",
+    //   tech: ["React", "TypeScript", "Tailwind", "Supabase"],
+    //   gradient: "from-green-500 to-teal-600",
+    //   demo: "https://your-mica-demo-url.com",
+    //   github: "https://github.com/sadatali123"
+    // },
+    {
+      title: "Zerodha Clone",
+      description: "A Zerodha-inspired trading platform clone with payment integration, user authentication and reponsive design.",
+      tech: ["React", "Express.js", "Material UI", "Mongoose", "Jwt"],
+      gradient: "from-orange-500 to-red-600",
+      demo: "https://your-ecommerce-demo-url.com",
+      github: "https://github.com/sadatali123/Zerodha-Clone"
+    },
+    {
+      title: "AI Chatbot",
+      description: "An AI-powered chatbot designed using api integration to provide real-time responses and enhance user engagement.",
+      tech: ["React","Node.js", "Express.js", "MongoDB"],
+      gradient: "from-purple-500 to-pink-600",
+      demo: "https://your-chat-app-demo-url.com",
+      github: "https://github.com/sadatali123/AI-Chatbot"
+    },
+    {
+      title: "Portfolio",
+      description: "A modern 3D portfolio combining animations, interactivity, and responsive design to showcase my work.",
+      tech: ["TypeScript", "Three.js", "shadcn", "Tailwind CSS"],
+      gradient: "from-cyan-500 to-blue-600",
+      demo: "https://your-analytics-demo-url.com",
+      github: "https://github.com/sadatali123/sadat.dvlpr"
+    },
     {
       title: "MICA 2025 Conference Site",
       description: "Official conference website with registration system, speaker profiles, and event management built with modern web technologies.",
-      tech: ["React", "TypeScript", "Tailwind", "Supabase"],
-      gradient: "from-green-500 to-teal-600",
-      demo: "https://your-mica-demo-url.com",
-      github: "https://github.com/sadatali123"
-    },
-    {
-      title: "E-Commerce Platform",
-      description: "Full-stack e-commerce solution with payment integration, inventory management, and user authentication.",
-      tech: ["Spring Boot", "React", "PostgreSQL", "Stripe"],
-      gradient: "from-orange-500 to-red-600",
-      demo: "https://your-ecommerce-demo-url.com",
-      github: "https://github.com/sadatali123"
-    },
-    {
-      title: "Real-time Chat App",
-      description: "Modern chat application with WebSocket integration, file sharing, and responsive design.",
-      tech: ["Node.js", "Socket.io", "React", "MongoDB"],
-      gradient: "from-purple-500 to-pink-600",
-      demo: "https://your-chat-app-demo-url.com",
-      github: "https://github.com/sadatali123"
-    },
-    {
-      title: "Portfolio Analytics",
-      description: "Interactive dashboard for tracking website analytics with beautiful data visualizations and insights.",
-      tech: ["React", "D3.js", "Node.js", "Charts.js"],
-      gradient: "from-cyan-500 to-blue-600",
-      demo: "https://your-analytics-demo-url.com",
-      github: "https://github.com/sadatali123"
-    },
-    {
-      title: "AI Content Generator",
-      description: "AI-powered content generation tool with multiple templates and export options for social media and blogs.",
-      tech: ["Python", "React", "OpenAI", "FastAPI"],
+      tech: ["HTML", "CSS", "javascript", " Express.js",  "MongoDB"],
       gradient: "from-indigo-500 to-purple-600",
-      demo: "https://your-ai-content-demo-url.com",
-      github: "https://github.com/sadatali123"
+      demo: "https://mica.net.in/",
+      github: "https://github.com/sadatali123/MICA-2025"
     }
   ];
 

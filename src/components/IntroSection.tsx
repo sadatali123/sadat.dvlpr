@@ -96,7 +96,7 @@ const IntroSection = () => {
     };
   }, []);
   const downloadResume = () => {
-    const resumeUrl = "./public/my_cv.pdf"; // resume URL
+    const resumeUrl = "/public/my_cv.pdf"; // resume URL
     const link = document.createElement('a');
     link.href = resumeUrl;
     link.download = 'Sadat_Ali_Resume.pdf';
@@ -147,7 +147,7 @@ const IntroSection = () => {
   ];
     return <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Icon Cloud - Hidden on mobile for performance */}
-      <div ref={iconCloudRef} className="lg:block absolute right-0 top-0 w-1/2 h-full z-0 flex items-center justify-center">
+      <div ref={iconCloudRef} className="lg:block hidden absolute right-0 top-0 w-1/2 h-full z-0 items-center justify-center">
         <div className="w-full max-w-lg h-96 mt-20">
           <IconCloud iconSlugs={techStackSlugs} />
         </div>

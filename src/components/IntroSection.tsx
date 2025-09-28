@@ -96,7 +96,7 @@ const IntroSection = () => {
     };
   }, []);
   const downloadResume = () => {
-    const resumeUrl = "/public/my_cv.pdf"; // resume URL
+    const resumeUrl = "/my_cv.pdf"; // resume URL
     const link = document.createElement('a');
     link.href = resumeUrl;
     link.download = 'Sadat_Ali_Resume.pdf';

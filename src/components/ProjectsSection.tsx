@@ -10,14 +10,6 @@ const ProjectsSection = () => {
   const cardsRef = useRef<HTMLDivElement>(null);
 
   const projects = [
-    {
-      title: "Information Service",
-      description: "A comprehensive MERN stack application for reporting and managing grievances with real-time notifications and admin dashboard.",
-      tech: ["React", "Node.js", "PostgreSQL", "Express"],
-      gradient: "from-blue-500 to-purple-600",
-      demo: "https://your-project-demo-url.com",
-      github: "https://github.com/sadatali123"
-    },
     // {
     //   title: "MICA 2025 Conference Site",
     //   description: "Official conference website with registration system, speaker profiles, and event management built with modern web technologies.",
@@ -31,7 +23,7 @@ const ProjectsSection = () => {
       description: "A Zerodha-inspired trading platform clone with payment integration, user authentication and reponsive design.",
       tech: ["React", "Express.js", "Material UI", "Mongoose", "Jwt"],
       gradient: "from-orange-500 to-red-600",
-      demo: "https://your-ecommerce-demo-url.com",
+      demo: "https://zerodha-clone-client.vercel.app",
       github: "https://github.com/sadatali123/Zerodha-Clone"
     },
     {
@@ -47,7 +39,7 @@ const ProjectsSection = () => {
       description: "A modern 3D portfolio combining animations, interactivity, and responsive design to showcase my work.",
       tech: ["TypeScript", "Three.js", "shadcn", "Tailwind CSS"],
       gradient: "from-cyan-500 to-blue-600",
-      demo: "https://your-analytics-demo-url.com",
+      demo: "https://sadat-dvlpr.vercel.app/",
       github: "https://github.com/sadatali123/sadat.dvlpr"
     },
     {
@@ -57,6 +49,14 @@ const ProjectsSection = () => {
       gradient: "from-indigo-500 to-purple-600",
       demo: "https://mica.net.in/",
       github: "https://github.com/sadatali123/MICA-2025"
+    } ,
+    {
+      title: "Information Service",
+      description: "A comprehensive MERN stack application for reporting and managing grievances with real-time notifications and admin dashboard.",
+      tech: ["React", "Node.js", "PostgreSQL", "Express"],
+      gradient: "from-blue-500 to-purple-600",
+      demo: "https://your-project-demo-url.com",
+      github: "https://github.com/sadatali123"
     }
   ];
 

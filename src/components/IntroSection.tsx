@@ -96,15 +96,13 @@ const IntroSection = () => {
     };
   }, []);
   const downloadResume = () => {
-    const resumeUrl = '/my_cv_google.pdf'; // resume URL (served from public/)
+    const resumeUrl = '/my_cv_google.pdf'; // resume URL
     const link = document.createElement('a');
     link.href = resumeUrl;
     link.setAttribute('download', 'Sadat_Ali_Resume.pdf');
     link.setAttribute('rel', 'noopener');
-    // append to DOM to ensure click works across browsers
     document.body.appendChild(link);
     link.click();
-    // cleanup
     document.body.removeChild(link);
   };
 

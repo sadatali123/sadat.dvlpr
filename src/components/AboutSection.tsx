@@ -156,7 +156,7 @@ const AboutSection = () => {
               {/* Resume Download Button */}
               <div className="mt-8">
                 <a
-                  href="./public/my_cv.pdf"
+                  href="./public/my_cv_google.pdf"
                   download="Sadat_Ali_Resume.pdf"
                   className="inline-flex items-center gap-3 px-6 py-3 bg-gradient-to-r from-accent to-primary text-accent-foreground font-semibold rounded-full hover:scale-105 transition-all duration-300 accent-glow"
                 >

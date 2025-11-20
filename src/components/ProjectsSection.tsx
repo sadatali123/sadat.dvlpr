@@ -28,7 +28,7 @@ const ProjectsSection = () => {
     },
        {
       title: "EduNova",
-      description: "A Learning Management System.",
+      description: "A full-stack MERN-based Learning Management System designed for both students and admins.",
       tech: ["React", "NodeJs", "Express.js", "MongoDB"],
       gradient: "from-orange-500 to-red-600",
       demo: "",

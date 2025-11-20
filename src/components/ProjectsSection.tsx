@@ -26,6 +26,14 @@ const ProjectsSection = () => {
       demo: "https://zerodha-clone-client.vercel.app",
       github: "https://github.com/sadatali123/Zerodha-Clone"
     },
+       {
+      title: "EduNova",
+      description: "A Learning Management System.",
+      tech: ["React", "NodeJs", "Express.js", "MongoDB"],
+      gradient: "from-orange-500 to-red-600",
+      demo: "",
+      github: "https://github.com/sadatali123/EduNova"
+    },
     {
       title: "AI Chatbot",
       description: "An AI-powered chatbot designed using api integration to provide real-time responses and enhance user engagement.",
